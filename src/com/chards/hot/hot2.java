@@ -47,7 +47,7 @@ public class hot2 {
 				tail.next = new ListNode(sum % 10);
 				tail = tail.next;
 			}
-			carry = sum / 10;
+			carry = sum / 10;    //进位
 			if (l1 != null) l1 = l1.next;
 			if (l2 != null) l2 = l2.next;
 		}

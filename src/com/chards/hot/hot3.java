@@ -15,7 +15,11 @@ package com.chards.hot;
  * 解释: 因为无重复字符的最长子串是 "abc"，所以其长度为 3。
  */
 public class hot3 {
-
+	/**
+	 * 滑动窗口 i为每次的左边界 res为右边界
+	 * @param s
+	 * @return
+	 */
 	public int lengthOfLongestSubstring(String s) {
 
 		int[] nums = new int[256];
@@ -33,8 +37,5 @@ public class hot3 {
 		return ans;
 	}
 
-	public static void main(String[] args) {
-		hot3 hot3 = new hot3();
-		hot3.lengthOfLongestSubstring("abaa");
-	}
+
 }

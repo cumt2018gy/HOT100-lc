@@ -15,6 +15,12 @@ import java.util.HashMap;
 public class hot1 {
 	HashMap map = new HashMap();
 
+	/**
+	 * 定义一个map函数  存取每一个数字对应的需要补全的数字值
+	 * @param nums
+	 * @param target
+	 * @return
+	 */
 	public int[] twoSum(int[] nums, int target) {
 		for (int i = 0; i < nums.length; i++) {
 			int num = target - nums[i];
