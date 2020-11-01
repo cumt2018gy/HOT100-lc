@@ -28,8 +28,7 @@ public class hot10 {
 					if (matches(s, p, i, j - 1)) {
 						f[i][j] = f[i][j] || f[i - 1][j];
 					}
-				}
-				else {
+				} else {
 					if (matches(s, p, i, j)) {
 						f[i][j] = f[i - 1][j - 1];
 					}
@@ -50,7 +49,7 @@ public class hot10 {
 	}
 
 	public static void main(String[] args) {
-		hot10 hot10=new hot10();
-		hot10.isMatch("aa","a*");
+		hot10 hot10 = new hot10();
+		hot10.isMatch("aa", "a*");
 	}
 }

@@ -73,7 +73,7 @@ public class hot5 {
 				}
 			}
 		}
-			return s.substring(left, left + maxLen);
+		return s.substring(left, left + maxLen);
 	}
 
 
