@@ -26,5 +26,6 @@ public class hot49 {
 			map.get(key).add(s);
 		}
 		return new ArrayList<>(map.values());
+
 	}
 }
